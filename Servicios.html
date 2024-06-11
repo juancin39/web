@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(to bottom, red, orange);
+        }
+
+        .FsI6-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .logo-img {
+            max-width: 80px;
+            height: auto;
+            background-color: linear-gradient(to bottom, red, orange); /* Mismo fondo que el body */
+            /* Ajusta los márgenes y el espacio si es necesario */
+            margin: 0;
+            padding: 0;
+        }
+
+        .FsI6-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Estilos CSS para las líneas desplegables */
+        .dropdown {
+            display: flex;
+            overflow: hidden;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .dropdown select {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+        }
+
+        .dropdown option {
+            background-color: linear-gradient(to bottom, red, orange);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="menu container">
+            <input type="checkbox" id="menu">
+                </label>
+                <nav class="navbar">
+                    <ul class="dropdown">
+                        <li>
+                            <select onchange="window.location.href=this.value;">
+                                <option value="datos.html">Datos</option>
+                                <option value="base.html">Inicio</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="FsI6-container">
+        <h1>Servicios</h1>
+        <h2>nada :D</h2>
+        <img src="xd.gif" width="300" height="150" alt="nanatsu" class="FsI6-img">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+        </div>
+    </footer>
+</body>
+</html>
